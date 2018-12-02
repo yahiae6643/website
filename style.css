@@ -1,0 +1,66 @@
+html,
+body {
+    background-image: url(purple.jpeg);
+
+
+}
+
+h1 {
+    color: white;
+    font-family: psregular;
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+}
+
+h2 {
+    color: white;
+    font-family: psregular;
+    position: fixed;
+    text-align: center;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+}
+
+.blink_me {
+  animation: blinker 3s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+    color:purple;
+  }
+}
+
+a {
+    font-family:psitalic;
+    color:white;
+    text-decoration: none;
+    font-size:20px;
+}
+
+.container {
+    border: 10px solid purple;
+    background:purple;
+    width:110%;
+    margin-left:-10px;
+    margin-top: -11px;
+}
+
+
+
+
+
+@font-face {
+    font-family: psregular;
+    src: url(PierSans-Regular.otf);
+}
+
+@font-face {
+    font-family: psitalic;
+    src: url(PierSans-Italic.otf);
+}
